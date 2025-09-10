@@ -1,0 +1,2545 @@
+Warning: Could not load plan graph or auto field mapping: [Errno 2] No such file or directory: 'graph_retrieval_validator/output/validation_graph_from_document.pkl'
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (128.03) vs POST_INGREDIENT_COST_CLIENT (168.52): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0001): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (9.06): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (2.22) vs POST_INGREDIENT_COST_CLIENT (4.0): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.12) vs POST_DISPENSING_FEE (0.0): True
+    Matched concept for Paid->Paid: Dispensing Fee Change
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.47) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (4.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Dispensing Fee Change'
+      Found paths for 'Dispensing Fee Change': [['Dispensing Fee Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Dispensing Fee Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (3292.05) vs POST_INGREDIENT_COST_CLIENT (3379.58): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.0) vs POST_DISPENSING_FEE (0.0): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (325.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (3.2) vs POST_INGREDIENT_COST_CLIENT (7.85): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.005): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.67) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (8.03): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (264.0) vs POST_INGREDIENT_COST_CLIENT (265.03): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0004): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (28.56): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (437.6) vs POST_INGREDIENT_COST_CLIENT (461.27): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (0.9998): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (68.2): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (4.91) vs POST_INGREDIENT_COST_CLIENT (4.88): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (1.0) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (4.98): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (13.96) vs POST_INGREDIENT_COST_CLIENT (12.2): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.12) vs POST_DISPENSING_FEE (0.1): True
+    Matched concept for Paid->Paid: Dispensing Fee Change
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (2.82) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (12.3): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Dispensing Fee Change'
+      Found paths for 'Dispensing Fee Change': [['Dispensing Fee Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Dispensing Fee Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (503.97) vs POST_INGREDIENT_COST_CLIENT (414.5): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (57.92): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (583.36) vs POST_INGREDIENT_COST_CLIENT (597.08): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (94.44): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (4.04) vs POST_INGREDIENT_COST_CLIENT (4.04): False
+    Diff check for PRE_DISPENSING_FEE (0.0) vs POST_DISPENSING_FEE (0.0): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (0.0): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.82) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (4.04): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (289.57) vs POST_INGREDIENT_COST_CLIENT (220.54): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.12) vs POST_DISPENSING_FEE (0.1): True
+    Matched concept for Paid->Paid: Dispensing Fee Change
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (0.9996): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (20.33): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Dispensing Fee Change'
+      Found paths for 'Dispensing Fee Change': [['Dispensing Fee Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Dispensing Fee Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (356.4) vs POST_INGREDIENT_COST_CLIENT (364.19): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (47.86): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (859.74) vs POST_INGREDIENT_COST_CLIENT (911.3): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (159.1): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (3161.45) vs POST_INGREDIENT_COST_CLIENT (3216.36): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (325.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (15.0) vs POST_INGREDIENT_COST_CLIENT (15.0): False
+    Diff check for PRE_DISPENSING_FEE (0.0) vs POST_DISPENSING_FEE (0.0): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (0.1155): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (3.03) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (15.02): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (282.61) vs POST_INGREDIENT_COST_CLIENT (220.54): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (0.9996): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (20.33): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (0.83) vs POST_INGREDIENT_COST_CLIENT (0.88): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.1719): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.19) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (0.99): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (3.89) vs POST_INGREDIENT_COST_CLIENT (3.92): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.8) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (4.02): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (14.16) vs POST_INGREDIENT_COST_CLIENT (4.84): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (0.9968): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (2.88) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (4.99): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (9.96) vs POST_INGREDIENT_COST_CLIENT (8.13): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (0.9905): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.82) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (8.31): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (23.88) vs POST_INGREDIENT_COST_CLIENT (22.8): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (4.8) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (22.9): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (14.72) vs POST_INGREDIENT_COST_CLIENT (9.63): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0035): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (2.99) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (9.83): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (2.38) vs POST_INGREDIENT_COST_CLIENT (1.98): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0081): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.5) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (2.1): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (12.74) vs POST_INGREDIENT_COST_CLIENT (15.72): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (0.9968): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (2.59) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (15.98): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (2.33) vs POST_INGREDIENT_COST_CLIENT (2.26): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.15) vs POST_DISPENSING_FEE (0.0): True
+    Matched concept for Paid->Paid: Dispensing Fee Change
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.5) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (2.26): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Dispensing Fee Change'
+      Found paths for 'Dispensing Fee Change': [['Dispensing Fee Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Dispensing Fee Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (6.79) vs POST_INGREDIENT_COST_CLIENT (5.56): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.75) vs POST_SALEX_TAX_PERC_PAID (1.7538): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (1.4) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (5.76): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (22.44) vs POST_INGREDIENT_COST_CLIENT (4.32): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.75) vs POST_SALEX_TAX_PERC_PAID (1.4414): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (4.77) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (5.52): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (5.74) vs POST_INGREDIENT_COST_CLIENT (2.33): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.15) vs POST_DISPENSING_FEE (0.0): True
+    Matched concept for Paid->Paid: Dispensing Fee Change
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (1.18) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (2.33): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Dispensing Fee Change'
+      Found paths for 'Dispensing Fee Change': [['Dispensing Fee Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Dispensing Fee Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (411.72) vs POST_INGREDIENT_COST_CLIENT (411.72): False
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (0.0): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (125.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): False
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (2) vs POST_CLIENT_PATIENT_SCHEDULE (4): True
+    Matched concept for Paid->Paid: Client Patient Schedule Change
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Client Patient Schedule Change']
+    Attempting to find paths from concept: 'Client Patient Schedule Change'
+      Found paths for 'Client Patient Schedule Change': [['Client Patient Schedule Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Client Patient Schedule Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Client Patient Schedule Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (5.78) vs POST_INGREDIENT_COST_CLIENT (5.78): False
+    Diff check for PRE_DISPENSING_FEE (0.12) vs POST_DISPENSING_FEE (0.12): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (1.18) vs POST_COPAY_AMOUNT (1.18): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (9.8) vs POST_APPR_AMT_APPL_PER_DED (9.8): False
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (3.0) vs POST_DRUG_SPECIFIC_COPAY (4.7): True
+    Matched concept for Paid->Paid: Drug Specific Copay Change
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Drug Specific Copay Change']
+    Attempting to find paths from concept: 'Drug Specific Copay Change'
+      Found paths for 'Drug Specific Copay Change': [['Drug Specific Copay Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug Specific Copay Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Drug Specific Copay Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (316.49) vs POST_INGREDIENT_COST_CLIENT (316.49): False
+    Diff check for PRE_DISPENSING_FEE (0.12) vs POST_DISPENSING_FEE (0.12): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (0.0): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (125.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): False
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: []
+  Added missing edge: No Identified Differences -> SME_Review
+  Fallback path found for 'No Identified Differences': [['No Identified Differences', 'Invalid_Mismatch']]
+
+--- Final paths found: [['No Identified Differences', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['No Identified Differences'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (7.34) vs POST_INGREDIENT_COST_CLIENT (7.34): False
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (1.49) vs POST_COPAY_AMOUNT (1.49): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (10.38) vs POST_APPR_AMT_APPL_PER_DED (10.38): False
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (6.98) vs POST_DRUG_SPECIFIC_COPAY (9.0): True
+    Matched concept for Paid->Paid: Drug Specific Copay Change
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Drug Specific Copay Change']
+    Attempting to find paths from concept: 'Drug Specific Copay Change'
+      Found paths for 'Drug Specific Copay Change': [['Drug Specific Copay Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug Specific Copay Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Drug Specific Copay Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (4.81) vs POST_INGREDIENT_COST_CLIENT (4.81): False
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.98) vs POST_COPAY_AMOUNT (0.98): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (11.87) vs POST_APPR_AMT_APPL_PER_DED (11.87): False
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: []
+  Fallback path found for 'No Identified Differences': [['No Identified Differences', 'Invalid_Mismatch']]
+
+--- Final paths found: [['No Identified Differences', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['No Identified Differences'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (583.36) vs POST_INGREDIENT_COST_CLIENT (583.36): False
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (0.0): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (125.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): False
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (4) vs POST_CLIENT_PATIENT_SCHEDULE (5): True
+    Matched concept for Paid->Paid: Client Patient Schedule Change
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Client Patient Schedule Change']
+    Attempting to find paths from concept: 'Client Patient Schedule Change'
+      Found paths for 'Client Patient Schedule Change': [['Client Patient Schedule Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Client Patient Schedule Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Client Patient Schedule Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (9879.14) vs POST_INGREDIENT_COST_CLIENT (9879.14): False
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (0.0): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (125.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): False
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (utcumr037) vs POST_XREF_PLAN_CODE (utcumr037): False
+
+  Matched Concepts before graph traversal: []
+  Fallback path found for 'No Identified Differences': [['No Identified Differences', 'Invalid_Mismatch']]
+
+--- Final paths found: [['No Identified Differences', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['No Identified Differences'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Same Reject Code Case (Code 76).
+      Matched concept: Matching Local Messages (Same Reject)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Matching Local Messages (Same Reject)'
+      Found paths for 'Matching Local Messages (Same Reject)': [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']]
+
+--- Final paths found: [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '75'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (nan) vs POST_DRUGLIST_DETAIL (nan): False
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (90) vs POST_DAYS_SUPPLY (90): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (nan): True
+        Matched deeper concept: Network Changed
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Network Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Network Changed'
+      Found paths for 'Network Changed': [['Network Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Network Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Network Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (nan) vs POST_DRUGLIST_DETAIL (nan): False
+    Diff check for PRE_SMART_PA_OVERALL (cvshsp1) vs POST_SMART_PA_OVERALL (cvshsp2): True
+        Matched deeper concept: Smart PA Overall Changed
+    Diff check for PRE_DAYS_SUPPLY (10) vs POST_DAYS_SUPPLY (10): False
+    Diff check for PRE_FINAL_PLAN_CODE (utcbd01) vs POST_FINAL_PLAN_CODE (utcbd01): False
+    Diff check for PRE_NETWORK (22pcvs) vs POST_NETWORK (pn205c): True
+        Matched deeper concept: Network Changed
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Smart PA Overall Changed', 'Network Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Smart PA Overall Changed'
+      Found paths for 'Smart PA Overall Changed': [['Smart PA Overall Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Network Changed'
+      Found paths for 'Network Changed': [['Network Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Smart PA Overall Changed', 'Valid_Mismatch'], ['Network Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Smart PA Overall Changed', 'Network Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '70'
+    POST_REJECT_CODE_1: '69'
+    PRE_LOCAL_MESSAGE: 'otc's not covered'
+    POST_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    Matched concept: Out-of-Scope Reject Code Pairs
+
+  Matched Concepts before graph traversal: ['Out-of-Scope Reject Code Pairs']
+    Attempting to find paths from concept: 'Out-of-Scope Reject Code Pairs'
+      Found paths for 'Out-of-Scope Reject Code Pairs': [['Out-of-Scope Reject Code Pairs', 'Invalid_Mismatch']]
+
+--- Final paths found: [['Out-of-Scope Reject Code Pairs', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Out-of-Scope Reject Code Pairs'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Same Reject Code Case (Code 76).
+      Matched concept: Different Local Messages (Same Reject)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Same Reject)']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Same Reject)'
+      Found paths for 'Different Local Messages (Same Reject)': [['Different Local Messages (Same Reject)', 'Invalid_Mismatch']]
+
+--- Final paths found: [['Different Local Messages (Same Reject)', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Same Reject)'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Same Reject Code Case (Code 76).
+      Matched concept: Matching Local Messages (Same Reject)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Matching Local Messages (Same Reject)'
+      Found paths for 'Matching Local Messages (Same Reject)': [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']]
+
+--- Final paths found: [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (nan): True
+        Matched concept: PA Reason or Layer Changed
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason or Layer Changed'
+      Found paths for 'PA Reason or Layer Changed': [['PA Reason or Layer Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['PA Reason or Layer Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (nan) vs POST_PA_REASON_CODE (nan): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (nan): True
+        Matched concept: PA Reason or Layer Changed
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason or Layer Changed'
+      Found paths for 'PA Reason or Layer Changed': [['PA Reason or Layer Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['PA Reason or Layer Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (nan): True
+        Matched concept: PA Reason or Layer Changed
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason or Layer Changed'
+      Found paths for 'PA Reason or Layer Changed': [['PA Reason or Layer Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['PA Reason or Layer Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (227.89) vs POST_INGREDIENT_COST_CLIENT (300.19): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (45.6) vs POST_COPAY_AMOUNT (35.06): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (2.68) vs POST_INGREDIENT_COST_CLIENT (0.98): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.15) vs POST_DISPENSING_FEE (0.0): True
+    Matched concept for Paid->Paid: Dispensing Fee Change
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.57) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (0.98): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Dispensing Fee Change'
+      Found paths for 'Dispensing Fee Change': [['Dispensing Fee Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Dispensing Fee Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (7.07) vs POST_INGREDIENT_COST_CLIENT (7.07): False
+    Diff check for PRE_DISPENSING_FEE (0.12) vs POST_DISPENSING_FEE (0.1): True
+    Matched concept for Paid->Paid: Dispensing Fee Change
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (1.44) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (18.37): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Dispensing Fee Change'
+      Found paths for 'Dispensing Fee Change': [['Dispensing Fee Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Dispensing Fee Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (187.43) vs POST_INGREDIENT_COST_CLIENT (187.43): False
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (23.26) vs POST_COPAY_AMOUNT (23.26): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (2.1) vs POST_DRUG_SPECIFIC_COPAY (3.2): True
+    Matched concept for Paid->Paid: Drug Specific Copay Change
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Deductible Applied Amount Change', 'Drug Specific Copay Change']
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Drug Specific Copay Change'
+      Found paths for 'Drug Specific Copay Change': [['Drug Specific Copay Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Deductible Applied Amount Change', 'Valid_Mismatch'], ['Drug Specific Copay Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Deductible Applied Amount Change', 'Drug Specific Copay Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (7.78) vs POST_INGREDIENT_COST_CLIENT (7.78): False
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (1.59) vs POST_COPAY_AMOUNT (1.59): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (7.19): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (13.59) vs POST_INGREDIENT_COST_CLIENT (13.59): False
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (2.77) vs POST_COPAY_AMOUNT (2.77): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (13.6): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (hspa1) vs POST_CLIENT_PATIENT_SCHEDULE (cvs1): True
+    Matched concept for Paid->Paid: Client Patient Schedule Change
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Deductible Applied Amount Change', 'Client Patient Schedule Change']
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Client Patient Schedule Change'
+      Found paths for 'Client Patient Schedule Change': [['Client Patient Schedule Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Deductible Applied Amount Change', 'Valid_Mismatch'], ['Client Patient Schedule Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Deductible Applied Amount Change', 'Client Patient Schedule Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (13.49) vs POST_INGREDIENT_COST_CLIENT (13.49): False
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (2.74) vs POST_COPAY_AMOUNT (2.74): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (14.23): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (227.89) vs POST_INGREDIENT_COST_CLIENT (227.89): False
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (36.22) vs POST_COPAY_AMOUNT (36.22): False
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (cvs1) vs POST_CLIENT_PATIENT_SCHEDULE (hspa1): True
+    Matched concept for Paid->Paid: Client Patient Schedule Change
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Deductible Applied Amount Change', 'Client Patient Schedule Change']
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Client Patient Schedule Change'
+      Found paths for 'Client Patient Schedule Change': [['Client Patient Schedule Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Deductible Applied Amount Change', 'Valid_Mismatch'], ['Client Patient Schedule Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Deductible Applied Amount Change', 'Client Patient Schedule Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (133.64) vs POST_INGREDIENT_COST_CLIENT (197.48): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (14.52): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (4.09) vs POST_INGREDIENT_COST_CLIENT (1.76): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.15) vs POST_DISPENSING_FEE (0.0): True
+    Matched concept for Paid->Paid: Dispensing Fee Change
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (0.0) vs POST_SALEX_TAX_PERC_PAID (0.0): False
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.85) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (1.76): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Dispensing Fee Change'
+      Found paths for 'Dispensing Fee Change': [['Dispensing Fee Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Dispensing Fee Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Dispensing Fee Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (17.93) vs POST_INGREDIENT_COST_CLIENT (13.86): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (1.0036): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (3.64) vs POST_COPAY_AMOUNT (0.0): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (14.1): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Paid ---
+  Processing Paid->Paid field differences.
+    Diff check for PRE_INGREDIENT_COST_CLIENT (316.69) vs POST_INGREDIENT_COST_CLIENT (414.42): True
+    Matched concept for Paid->Paid: Ingredient Cost Change
+    Diff check for PRE_DISPENSING_FEE (0.1) vs POST_DISPENSING_FEE (0.1): False
+    Diff check for PRE_AMOUNT_ATTR_TO_SALES_TAX (0.0) vs POST_AMOUNT_ATTR_TO_SALES_TAX (0.0): False
+    Diff check for PRE_SALEX_TAX_PERC_PAID (1.0) vs POST_SALEX_TAX_PERC_PAID (0.9993): True
+    Matched concept for Paid->Paid: Percentage Sales Tax Change
+    Diff check for PRE_INCENTIVE_FEE (0.0) vs POST_INCENTIVE_FEE (0.0): False
+    Diff check for PRE_COPAY_AMOUNT (0.0) vs POST_COPAY_AMOUNT (59.05): True
+    Matched concept for Paid->Paid: Copay Amount Change
+    Diff check for PRE_APPR_AMT_APPL_PER_DED (0.0) vs POST_APPR_AMT_APPL_PER_DED (125.0): True
+    Matched concept for Paid->Paid: Deductible Applied Amount Change
+    Diff check for PRE_PROD_SELECTION_PENALTY (0.0) vs POST_PROD_SELECTION_PENALTY (0.0): False
+    Diff check for PRE_DRUG_SPECIFIC_COPAY (nan) vs POST_DRUG_SPECIFIC_COPAY (nan): False
+    Diff check for PRE_CLIENT_PATIENT_SCHEDULE (nan) vs POST_CLIENT_PATIENT_SCHEDULE (nan): False
+    Diff check for PRE_XREF_PLAN_CODE (nan) vs POST_XREF_PLAN_CODE (nan): False
+
+  Matched Concepts before graph traversal: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change']
+    Attempting to find paths from concept: 'Ingredient Cost Change'
+      Found paths for 'Ingredient Cost Change': [['Ingredient Cost Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Percentage Sales Tax Change'
+      Found paths for 'Percentage Sales Tax Change': [['Percentage Sales Tax Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Copay Amount Change'
+      Found paths for 'Copay Amount Change': [['Copay Amount Change', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Deductible Applied Amount Change'
+      Found paths for 'Deductible Applied Amount Change': [['Deductible Applied Amount Change', 'Valid_Mismatch']]
+
+--- Final paths found: [['Ingredient Cost Change', 'Valid_Mismatch'], ['Percentage Sales Tax Change', 'Valid_Mismatch'], ['Copay Amount Change', 'Valid_Mismatch'], ['Deductible Applied Amount Change', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Ingredient Cost Change', 'Percentage Sales Tax Change', 'Copay Amount Change', 'Deductible Applied Amount Change'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmk0230~seq-1~type-g) vs POST_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmk0230~seq-1~type-g): False
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+        Matched concept: No Deeper Differences (Fallback for Cross Reject Code Cases)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'No Deeper Differences'
+      Found paths for 'No Deeper Differences': [['No Deeper Differences', 'Invalid_Mismatch']]
+
+--- Final paths found: [['No Deeper Differences', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL () vs POST_DRUGLIST_DETAIL (nan): True
+        Matched deeper concept: Drug List Changed
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Drug List Changed'
+      Found paths for 'Drug List Changed': [['Drug List Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug List Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL () vs POST_DRUGLIST_DETAIL (nan): True
+        Matched deeper concept: Drug List Changed
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Drug List Changed'
+      Found paths for 'Drug List Changed': [['Drug List Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug List Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmk0230~seq-1~type-g) vs POST_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmk0230~seq-1~type-g): False
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+        Matched concept: No Deeper Differences (Fallback for Cross Reject Code Cases)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'No Deeper Differences'
+      Found paths for 'No Deeper Differences': [['No Deeper Differences', 'Invalid_Mismatch']]
+
+--- Final paths found: [['No Deeper Differences', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmk0230~seq-1~type-g) vs POST_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmk0230~seq-1~type-g): False
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+        Matched concept: No Deeper Differences (Fallback for Cross Reject Code Cases)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'No Deeper Differences'
+      Found paths for 'No Deeper Differences': [['No Deeper Differences', 'Invalid_Mismatch']]
+
+--- Final paths found: [['No Deeper Differences', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL () vs POST_DRUGLIST_DETAIL (nan): True
+        Matched deeper concept: Drug List Changed
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Drug List Changed'
+      Found paths for 'Drug List Changed': [['Drug List Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug List Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmk0230~seq-1~type-g) vs POST_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmkum0180b~seq-1~type-g): True
+        Matched deeper concept: Drug List Changed
+    Diff check for PRE_SMART_PA_OVERALL (cvshsp1) vs POST_SMART_PA_OVERALL (cvshsp2): True
+        Matched deeper concept: Smart PA Overall Changed
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (ncv204): True
+        Matched deeper concept: Network Changed
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Smart PA Overall Changed', 'Network Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Drug List Changed'
+      Found paths for 'Drug List Changed': [['Drug List Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Smart PA Overall Changed'
+      Found paths for 'Smart PA Overall Changed': [['Smart PA Overall Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Network Changed'
+      Found paths for 'Network Changed': [['Network Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug List Changed', 'Valid_Mismatch'], ['Smart PA Overall Changed', 'Valid_Mismatch'], ['Network Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Smart PA Overall Changed', 'Network Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmkum0180b~seq-1~type-g) vs POST_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmk0230~seq-1~type-g): True
+        Matched deeper concept: Drug List Changed
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (ncv204): True
+        Matched deeper concept: Network Changed
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Network Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Drug List Changed'
+      Found paths for 'Drug List Changed': [['Drug List Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Network Changed'
+      Found paths for 'Network Changed': [['Network Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug List Changed', 'Valid_Mismatch'], ['Network Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Network Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL () vs POST_DRUGLIST_DETAIL (nan): True
+        Matched deeper concept: Drug List Changed
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (ncv204): True
+        Matched deeper concept: Network Changed
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Network Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Drug List Changed'
+      Found paths for 'Drug List Changed': [['Drug List Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Network Changed'
+      Found paths for 'Network Changed': [['Network Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug List Changed', 'Valid_Mismatch'], ['Network Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Network Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL () vs POST_DRUGLIST_DETAIL (nan): True
+        Matched deeper concept: Drug List Changed
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (ncv204): True
+        Matched deeper concept: Network Changed
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Network Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Drug List Changed'
+      Found paths for 'Drug List Changed': [['Drug List Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Network Changed'
+      Found paths for 'Network Changed': [['Network Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug List Changed', 'Valid_Mismatch'], ['Network Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Network Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL () vs POST_DRUGLIST_DETAIL (nan): True
+        Matched deeper concept: Drug List Changed
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (ncv204): True
+        Matched deeper concept: Network Changed
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Network Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Drug List Changed'
+      Found paths for 'Drug List Changed': [['Drug List Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Network Changed'
+      Found paths for 'Network Changed': [['Network Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug List Changed', 'Valid_Mismatch'], ['Network Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Network Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL () vs POST_DRUGLIST_DETAIL (nan): True
+        Matched deeper concept: Drug List Changed
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (ncv204): True
+        Matched deeper concept: Network Changed
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Network Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Drug List Changed'
+      Found paths for 'Drug List Changed': [['Drug List Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Network Changed'
+      Found paths for 'Network Changed': [['Network Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug List Changed', 'Valid_Mismatch'], ['Network Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Network Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmk0230~seq-1~type-g) vs POST_DRUGLIST_DETAIL (mdl-~pgp list-~list-cmk0230~seq-1~type-g): False
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (ncv204): True
+        Matched deeper concept: Network Changed
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Network Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Network Changed'
+      Found paths for 'Network Changed': [['Network Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Network Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Network Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '75'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL () vs POST_DRUGLIST_DETAIL (nan): True
+        Matched deeper concept: Drug List Changed
+    Diff check for PRE_SMART_PA_OVERALL (cvshsp1) vs POST_SMART_PA_OVERALL (cvshsp2): True
+        Matched deeper concept: Smart PA Overall Changed
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (ncv204): True
+        Matched deeper concept: Network Changed
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Smart PA Overall Changed', 'Network Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Drug List Changed'
+      Found paths for 'Drug List Changed': [['Drug List Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Smart PA Overall Changed'
+      Found paths for 'Smart PA Overall Changed': [['Smart PA Overall Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Network Changed'
+      Found paths for 'Network Changed': [['Network Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Drug List Changed', 'Valid_Mismatch'], ['Smart PA Overall Changed', 'Valid_Mismatch'], ['Network Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Drug List Changed', 'Smart PA Overall Changed', 'Network Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '75'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (cvshsp1) vs POST_PA_LAYER_DETAILS (cvshsp1): False
+    Diff check for PRE_DRUGLIST_DETAIL (nan) vs POST_DRUGLIST_DETAIL (nan): False
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+        Matched concept: No Deeper Differences (Fallback for Cross Reject Code Cases)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'No Deeper Differences'
+      Found paths for 'No Deeper Differences': [['No Deeper Differences', 'Invalid_Mismatch']]
+
+--- Final paths found: [['No Deeper Differences', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '75'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (nan) vs POST_DRUGLIST_DETAIL (nan): False
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+        Matched concept: No Deeper Differences (Fallback for Cross Reject Code Cases)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'No Deeper Differences'
+      Found paths for 'No Deeper Differences': [['No Deeper Differences', 'Invalid_Mismatch']]
+
+--- Final paths found: [['No Deeper Differences', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '75'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (nan) vs POST_DRUGLIST_DETAIL (nan): False
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (30) vs POST_DAYS_SUPPLY (30): False
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+        Matched concept: No Deeper Differences (Fallback for Cross Reject Code Cases)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'No Deeper Differences'
+      Found paths for 'No Deeper Differences': [['No Deeper Differences', 'Invalid_Mismatch']]
+
+--- Final paths found: [['No Deeper Differences', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'No Deeper Differences'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '75'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+    Diff check for PRE_DRUGLIST_DETAIL (nan) vs POST_DRUGLIST_DETAIL (nan): False
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (90) vs POST_DAYS_SUPPLY (30): True
+        Matched deeper concept: Days Supply Changed
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Days Supply Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Days Supply Changed'
+      Found paths for 'Days Supply Changed': [['Days Supply Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['Days Supply Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'Days Supply Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '75'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'comm bpg 004336/adv/rx1108|~|filled after coverage trm'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Cross Reject Code Cases.
+      Matched concept: Different Local Messages (Cross Reject)
+      Checking deeper fields for differences.
+    Diff check for PRE_PA_LAYER_DETAILS (cvshsp1) vs POST_PA_LAYER_DETAILS (cvshsp2): True
+        Matched deeper concept: PA Layer Changed
+    Diff check for PRE_DRUGLIST_DETAIL (nan) vs POST_DRUGLIST_DETAIL (nan): False
+    Diff check for PRE_SMART_PA_OVERALL (nan) vs POST_SMART_PA_OVERALL (nan): False
+    Diff check for PRE_DAYS_SUPPLY (90) vs POST_DAYS_SUPPLY (30): True
+        Matched deeper concept: Days Supply Changed
+    Diff check for PRE_FINAL_PLAN_CODE (nan) vs POST_FINAL_PLAN_CODE (nan): False
+    Diff check for PRE_NETWORK (22ccvs) vs POST_NETWORK (22ccvs): False
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'PA Layer Changed', 'Days Supply Changed']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Different Local Messages (Cross Reject)'
+      No paths found from 'Different Local Messages (Cross Reject)' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Layer Changed'
+      Found paths for 'PA Layer Changed': [['PA Layer Changed', 'Valid_Mismatch']]
+    Attempting to find paths from concept: 'Days Supply Changed'
+      Found paths for 'Days Supply Changed': [['Days Supply Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['PA Layer Changed', 'Valid_Mismatch'], ['Days Supply Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Different Local Messages (Cross Reject)', 'PA Layer Changed', 'Days Supply Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Same Reject Code Case (Code 76).
+      Matched concept: Matching Local Messages (Same Reject)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Matching Local Messages (Same Reject)'
+      Found paths for 'Matching Local Messages (Same Reject)': [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']]
+
+--- Final paths found: [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Same Reject Code Case (Code 76).
+      Matched concept: Matching Local Messages (Same Reject)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Matching Local Messages (Same Reject)'
+      Found paths for 'Matching Local Messages (Same Reject)': [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']]
+
+--- Final paths found: [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Same Reject Code Case (Code 76).
+      Matched concept: Matching Local Messages (Same Reject)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Matching Local Messages (Same Reject)'
+      Found paths for 'Matching Local Messages (Same Reject)': [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']]
+
+--- Final paths found: [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Same Reject Code Case (Code 76).
+      Matched concept: Matching Local Messages (Same Reject)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Matching Local Messages (Same Reject)'
+      Found paths for 'Matching Local Messages (Same Reject)': [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']]
+
+--- Final paths found: [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Reject→Reject ---
+  Processing Reject->Reject logic.
+    PRE_REJECT_CODE_1: '76'
+    POST_REJECT_CODE_1: '76'
+    PRE_LOCAL_MESSAGE: 'maximum days supply of 34'
+    POST_LOCAL_MESSAGE: 'maximum days supply of 34'
+    Matched concept: In-Scope Reject Code Pairs
+    Entering Same Reject Code Case (Code 76).
+      Matched concept: Matching Local Messages (Same Reject)
+
+  Matched Concepts before graph traversal: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)']
+    Attempting to find paths from concept: 'In-Scope Reject Code Pairs'
+      No paths found from 'In-Scope Reject Code Pairs' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Matching Local Messages (Same Reject)'
+      Found paths for 'Matching Local Messages (Same Reject)': [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']]
+
+--- Final paths found: [['Matching Local Messages (Same Reject)', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['In-Scope Reject Code Pairs', 'Matching Local Messages (Same Reject)'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (nan): True
+        Matched concept: PA Reason or Layer Changed
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason or Layer Changed'
+      Found paths for 'PA Reason or Layer Changed': [['PA Reason or Layer Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['PA Reason or Layer Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (nan) vs POST_PA_REASON_CODE (nan): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE () vs POST_PA_REASON_CODE (nan): True
+        Matched concept: PA Reason or Layer Changed
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason or Layer Changed'
+      Found paths for 'PA Reason or Layer Changed': [['PA Reason or Layer Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['PA Reason or Layer Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (nan): True
+        Matched concept: PA Reason or Layer Changed
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason or Layer Changed'
+      Found paths for 'PA Reason or Layer Changed': [['PA Reason or Layer Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['PA Reason or Layer Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE () vs POST_PA_REASON_CODE (nan): True
+        Matched concept: PA Reason or Layer Changed
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason or Layer Changed'
+      Found paths for 'PA Reason or Layer Changed': [['PA Reason or Layer Changed', 'Valid_Mismatch']]
+
+--- Final paths found: [['PA Reason or Layer Changed', 'Valid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason or Layer Changed'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (od): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (od): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (od): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (od): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (od): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (od): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (od): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (od): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+
+--- retrieve_paths_from_graph for Claim Type: Paid→Reject ---
+  Processing Paid->Reject logic.
+    POST_REJECT_CODE_1: '75'
+    POST_LOCAL_MESSAGE: 'prior auth req-md call 800-294-5979.|~|drug requires prior authorization'
+    Matched concept: Reject Code Is 75
+    PA Trigger check for message 'prior auth req-md call 800-294-5979.|~|drug requir...': True
+      Matched concept: Local Message Indicates PA
+    Diff check for PRE_PA_REASON_CODE (od) vs POST_PA_REASON_CODE (od): False
+    Diff check for PRE_PA_LAYER_DETAILS (nan) vs POST_PA_LAYER_DETAILS (nan): False
+        Matched concept: PA Reason and Layer Same
+
+  Matched Concepts before graph traversal: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same']
+    Attempting to find paths from concept: 'Reject Code Is 75'
+      No paths found from 'Reject Code Is 75' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'Local Message Indicates PA'
+      No paths found from 'Local Message Indicates PA' to Valid_Mismatch or Invalid_Mismatch within cutoff.
+    Attempting to find paths from concept: 'PA Reason and Layer Same'
+      Found paths for 'PA Reason and Layer Same': [['PA Reason and Layer Same', 'Invalid_Mismatch']]
+
+--- Final paths found: [['PA Reason and Layer Same', 'Invalid_Mismatch']] ---
+--- Final matched concepts: ['Reject Code Is 75', 'Local Message Indicates PA', 'PA Reason and Layer Same'] ---
+✅ Graph validation results saved to: output/graph_validation_results_llm.xlsx

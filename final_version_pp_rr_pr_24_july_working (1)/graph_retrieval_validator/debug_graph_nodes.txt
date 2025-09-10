@@ -1,0 +1,8 @@
+Loading Rulebook Graph from ../output/New_validation_graph.pkl...
+Rulebook Graph loaded.
+
+--- Details for Node: 'Different Local Messages (Same Reject)' ---
+Attributes: {'Cause': 'PRE_REJECT_CODE_1 = POST_REJECT_CODE_1 = 76 AND PRE_LOCAL_MESSAGE ≠ POST_LOCAL_MESSAGE', 'Effect': 'Local Message change → Invalid mismatch', 'Node_Type': 'Validation_Rule', 'Parent_Node': 'Same_Reject_Code_Case', 'Precondition': 'In_Scope_Rule_True', 'Section': 'Same Reject Code Case'}
+
+--- Successor Edges from 'Different Local Messages (Same Reject)' ---
+  → Invalid_Mismatch (Edge Data: {'Edge_Type': 'Results_In'})

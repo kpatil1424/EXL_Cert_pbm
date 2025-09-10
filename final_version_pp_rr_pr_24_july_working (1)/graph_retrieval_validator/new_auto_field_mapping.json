@@ -1,0 +1,116 @@
+{
+  "POST_AMOUNT_ATTR_TO_SALES_TAX": [
+    "Amount",
+    "Percentage of Predominant Reimbursement Rate Payable by the Participant",
+    "SECTION 5 - SCHEDULE OF BENEFITS AND COVERAGE",
+    "\\u25a0 Participant, per Calendar Year (CY)"
+  ],
+  "POST_APPR_AMT_APPL_PER_DED": [
+    "Deductible",
+    "Annual Deductible and Coinsurance amounts.",
+    "Annual Prescription Drug Deductible does",
+    "Annual Prescription Drug Deductible does not"
+  ],
+  "POST_CLAIM_STATUS": [
+    "DOCUMENT",
+    "Document Root"
+  ],
+  "POST_CLIENT_PATIENT_SCHEDULE": [
+    "SECTION 5 - SCHEDULE OF BENEFITS AND COVERAGE",
+    "SECTION 6, \\u201cDETAILS FOR COVERED",
+    "SECTION 6, \\u201cDETAILS FOR COVERED DRUGS OR SUPPLIES\\u201d FOR MORE",
+    "TABLE 2 \\u2013 Network Benefits for Covered Drugs or Supplies"
+  ],
+  "POST_COPAY_AMOUNT": [
+    "Copays",
+    "Copays2,3 (Copay is per Prescription Order or Refill)",
+    "Table 2 below contains the Program\\u2019s Network Copays, Annual Prescription Drug Deductible, and Total",
+    "Table 3 below contains the Program\\u2019s Non-Network Copays, Coinsurance, and the Annual Prescription"
+  ],
+  "POST_DAYS_SUPPLY": [
+    "Covered Drugs or Supplies (up",
+    "Covered Drugs or Supplies (up to a 30-",
+    "Covered Drugs or Supplies (up to a 90-",
+    "day supply)"
+  ],
+  "POST_DISPENSING_FEE": [
+    "No matches."
+  ],
+  "POST_DRUGLIST_DETAIL": [
+    "Drugs or Supplies\\u201d for more details",
+    "Drugs or Supplies\\u201d for the",
+    "Details for Covered Drugs or",
+    "\\u201cDetails for Covered Drugs or Supplies\\u201d for"
+  ],
+  "POST_DRUG_SPECIFIC_COPAY": [
+    "Copays",
+    "Copays2,3 (Copay is per Prescription Order or Refill)",
+    "Drug Deductible for Covered Drugs or Supplies. Note: There is no Total Out-of-Pocket Maximum for Non-",
+    "Table 2 below contains the Program\\u2019s Network Copays, Annual Prescription Drug Deductible, and Total"
+  ],
+  "POST_FINAL_PLAN_CODE": [
+    "Document Root",
+    "DOCUMENT",
+    "Program Features",
+    "Document"
+  ],
+  "POST_INCENTIVE_FEE": [
+    "Amount",
+    "Percentage of Predominant Reimbursement Rate Payable by the Participant",
+    "SECTION 5 - SCHEDULE OF BENEFITS AND COVERAGE",
+    "Program Features"
+  ],
+  "POST_INGREDIENT_COST_CLIENT": [
+    "Amount",
+    "Participant cost share dependent upon Generic availability if they are provided by a Network Pharmacy.",
+    "Percentage of Predominant Reimbursement Rate Payable by the Participant",
+    "Participant cost share dependent upon Generic availability. Under the Affordable Care Act, certain"
+  ],
+  "POST_LOCAL_MESSAGE": [
+    "(refills allowed as prescribed)",
+    "prescribed)2",
+    "(refills allowed as prescribed)2",
+    "Medication (refills allowed as prescribed)2"
+  ],
+  "POST_NETWORK": [
+    "Network Benefits in the HealthSelect of Texas Prescription Drug Program.",
+    "Non-Network Annual Deductible",
+    "Network and Non-Network Covered Drugs and",
+    "Table 3 below contains the Program\\u2019s Non-Network Copays, Coinsurance, and the Annual Prescription"
+  ],
+  "POST_PA_LAYER_DETAILS": [
+    "SECTION 6, \\u201cDETAILS FOR COVERED",
+    "SECTION 6, \\u201cDETAILS FOR COVERED DRUGS OR SUPPLIES\\u201d FOR",
+    "\\u201cDetails for Covered Drugs or Supplies\\u201d for",
+    "\\u201cDetails for Covered Drugs or Supplies\\u201d for more"
+  ],
+  "POST_PA_REASON_CODE": [
+    "Clinical Criteria are met. For more information about the Utilization Management exceptions process,",
+    "Note on Utilization Management: If you are unable to take the Generic or therapeutic equivalent of a",
+    "requirements cannot be met you may be eligible to obtain coverage of the Brand-name Drug if certain"
+  ],
+  "POST_PROD_SELECTION_PENALTY": [
+    "referred to as the Dispense as Written Penalty.)",
+    "You will pay",
+    "paying a",
+    "Participant cost share dependent upon Generic availability."
+  ],
+  "POST_REJECT_CODE_1": [
+    "(refills allowed as prescribed)2",
+    "DOCUMENT",
+    "SECTION 5 - SCHEDULE OF BENEFITS AND COVERAGE",
+    "SECTION 6, \\u201cDETAILS FOR COVERED"
+  ],
+  "POST_SALEX_TAX_PERC_PAID": [
+    "Percentage of Predominant Reimbursement Rate Payable by the Participant"
+  ],
+  "POST_SMART_PA_OVERALL": [
+    "(refills allowed as prescribed)",
+    "(refills allowed as prescribed)2",
+    "Medication (refills allowed as prescribed)2",
+    "contraceptives (refills allowed as prescribed)"
+  ],
+  "POST_XREF_PLAN_CODE": [
+    "There are no exact matches."
+  ]
+}
