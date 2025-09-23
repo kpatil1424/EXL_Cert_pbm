@@ -496,3 +496,207 @@ def run_one_row_example():
 
 if __name__ == "__main__":
     run_one_row_example()
+
+
+
+
+
+
+
+
+import pickle
+import networkx as nx
+import pandas as pd
+import pickle
+import networkx as nx
+import pandas as pd
+from thefuzz import fuzz
+from sentence_transformers import SentenceTransformer, util
+import os
+import torch
+
+def create_simple_rules_csv(graph_file_path, output_csv_path):
+    """
+    Loads a knowledge graph, extracts all unique labels from both nodes and edges,
+    and saves them to a simple CSV file with a default threshold.
+    """
+    try:
+        with open(graph_file_path, 'rb') as f:
+            knowledge_graph = pickle.load(f)
+        print(f"Successfully loaded the knowledge graph from: {graph_file_path}")
+    except FileNotFoundError:
+        print(f"Error: The file '{graph_file_path}' was not found.")
+        return
+
+    # Use a single set to collect all unique labels from nodes and edges
+    all_unique_labels = set()
+
+    # Iterate through all nodes and extract their labels
+    print("Extracting unique labels from nodes...")
+    for _, data in knowledge_graph.nodes(data=True):
+        label = data.get('label') or data.get('type') or data.get('category')
+        if isinstance(label, str) and label:
+            all_unique_labels.add(label)
+
+    # Iterate through all edges and extract their labels
+    print("Extracting unique labels from edges...")
+    for _, _, data in knowledge_graph.edges(data=True):
+        label = data.get('relation') or data.get('type') or data.get('label')
+        if isinstance(label, str) and label:
+            all_unique_labels.add(label)
+
+    print(f"Found {len(all_unique_labels)} unique labels in total.")
+    
+    # Create the DataFrame
+    rows = []
+    default_threshold = 85
+    for label in sorted(list(all_unique_labels)):
+        rows.append({'target_label': label, 'threshold': default_threshold})
+    df = pd.DataFrame(rows)
+
+    # Save the DataFrame to a CSV file
+    df.to_csv(output_csv_path, index=False)
+    print(f"\nSuccessfully created and saved the rules file to: {output_csv_path}")
+    print("Please open the CSV file to review and adjust the 'threshold' values as needed.")
+
+if __name__ == '__main__':
+    input_graph_file = 'graph_from_document.pkl' # <-- CHANGE THIS
+    output_rules_file = 'filtering_topics.csv'
+
+    create_simple_rules_csv(input_graph_file, output_rules_file)
+
+
+
+def combined_filter_and_log_exclusions(graph_path, rules_path, output_path, excluded_log_path, semantic_threshold=0.6):
+    """
+    Filters a knowledge graph using both fuzzy and semantic matching and logs all excluded elements.
+    
+    Args:
+        graph_path (str): Path to the input .pkl knowledge graph file.
+        rules_path (str): Path to the CSV file containing filtering rules.
+        output_path (str): Path to save the new filtered graph.
+        excluded_log_path (str): Path to save the CSV file of excluded elements.
+        semantic_threshold (float): The minimum semantic similarity score (0-1).
+    """
+    # 1. Load files
+    if not os.path.exists(graph_path):
+        print(f"Error: Knowledge graph file not found at '{graph_path}'.")
+        return
+    if not os.path.exists(rules_path):
+        print(f"Error: Rules file not found at '{rules_path}'.")
+        return
+
+    print("Loading graph and filtering rules...")
+    with open(graph_path, 'rb') as f:
+        knowledge_graph = pickle.load(f)
+    rules_df = pd.read_csv(rules_path)
+    
+    # 2. Prepare semantic model and target embeddings
+    print("Loading semantic model...")
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model = SentenceTransformer('all-MiniLM-L6-v2', device=device)
+    
+    target_labels = rules_df['target_label'].tolist()
+    target_thresholds = rules_df['threshold'].tolist()
+    target_embeddings = model.encode(target_labels, convert_to_tensor=True)
+    
+    # 3. Process and categorize all elements
+    print("\nProcessing and categorizing all graph elements...")
+    
+    included_nodes = []
+    included_edges = []
+    excluded_elements = []
+
+    # Process nodes
+    for node, data in knowledge_graph.nodes(data=True):
+        label = str(data.get('label', data.get('type', ''))).lower()
+        is_relevant = False
+        
+        for i, target_label in enumerate(target_labels):
+            fuzzy_score = fuzz.ratio(label, str(target_label).lower())
+            semantic_score = util.cos_sim(model.encode(label, convert_to_tensor=True), target_embeddings[i]).item()
+            
+            # Check against the thresholds
+            if fuzzy_score >= target_thresholds[i] or semantic_score >= semantic_threshold:
+                is_relevant = True
+                break
+
+        if is_relevant:
+            included_nodes.append((node, data))
+        else:
+            excluded_elements.append({
+                'element_type': 'node',
+                'label': label,
+                'is_relevant': False,
+                'reason': 'Did not meet filtering criteria.'
+            })
+
+    # Process edges
+    for u, v, data in knowledge_graph.edges(data=True):
+        label = str(data.get('relation', data.get('label', ''))).lower()
+        is_relevant = False
+
+        for i, target_label in enumerate(target_labels):
+            fuzzy_score = fuzz.ratio(label, str(target_label).lower())
+            semantic_score = util.cos_sim(model.encode(label, convert_to_tensor=True), target_embeddings[i]).item()
+            
+            if fuzzy_score >= target_thresholds[i] or semantic_score >= semantic_threshold:
+                # An edge is relevant if its label matches AND its connected nodes are also relevant
+                # However, for the log, we track all that don't match the label
+                is_relevant = True
+                break
+        
+        # Log all edges that are not considered relevant
+        if not is_relevant:
+             excluded_elements.append({
+                'element_type': 'edge',
+                'label': label,
+                'is_relevant': False,
+                'reason': 'Did not meet filtering criteria.'
+            })
+        else:
+            # If the edge label is relevant, check if the nodes were included
+            if any(n[0] == u for n in included_nodes) and any(n[0] == v for n in included_nodes):
+                included_edges.append((u, v, data))
+            else:
+                 excluded_elements.append({
+                    'element_type': 'edge',
+                    'label': label,
+                    'is_relevant': False,
+                    'reason': 'Connected nodes were not relevant.'
+                })
+    
+    # 4. Save the filtered graph
+    filtered_graph = nx.DiGraph()
+    filtered_graph.add_nodes_from(included_nodes)
+    filtered_graph.add_edges_from(included_edges)
+
+    print("\nFiltering process complete.")
+    print(f"Original graph: {knowledge_graph.number_of_nodes()} nodes, {knowledge_graph.number_of_edges()} edges.")
+    print(f"Filtered graph: {filtered_graph.number_of_nodes()} nodes, {filtered_graph.number_of_edges()} edges.")
+    
+    with open(output_path, 'wb') as f:
+        pickle.dump(filtered_graph, f)
+    
+    print(f"\nFiltered knowledge graph saved to: {output_path}")
+
+    # 5. Log the excluded elements to a CSV
+    excluded_df = pd.DataFrame(excluded_elements)
+    excluded_df.to_csv(excluded_log_path, index=False)
+    print(f"Log of excluded elements saved to: {excluded_log_path}")
+
+if __name__ == "__main__":
+    input_graph_file = 'graph_from_document.pkl'
+    rules_csv_file = 'filtering_topics.csv'
+    output_filtered_file = 'filtered_knowledge_graph.pkl'
+    output_excluded_log = 'excluded_topics_log.csv'
+
+    combined_filter_and_log_exclusions(input_graph_file, rules_csv_file, output_filtered_file, output_excluded_log)
+
+
+
+
+
+
+
+
