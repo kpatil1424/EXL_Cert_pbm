@@ -1,0 +1,9 @@
+{
+    "nodes": ["Step 1: Example", "Cause A", "Effect B", "Non-arrow bullet"],
+    "edges": [
+      {"source": "Cause A", "target": "Effect B", "label": "causes"},
+      {"source": "Effect B", "target": "Step 1: Example", "label": "explained in"},
+      {"source": "Non-arrow bullet", "target": "Step 1: Example", "label": "context for"}
+    ]
+  }
+  
