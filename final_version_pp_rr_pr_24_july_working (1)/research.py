@@ -18,7 +18,7 @@ High-level flow (what happens on each claim)
 	7.	Explain (1–3 lines): what changed, which table you used, the value, the page anchor.
 
 
-
+https://lightning.ai/v1/auth/magic-link-complete?token=jPeLUSasxPhbJywF69PV7PmoWzPeRi8NO_RWtTGFWFTMHFrOV6Nmz5tdEGS3mT80YWRORHFzpoCB1yhzoRyEHA==
 
 
 
